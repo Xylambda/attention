@@ -3,7 +3,7 @@ This repository contains some simple experiments to test the goodness of simple
 attention mechanisms + [Time2Vec](https://arxiv.org/abs/1907.05321) on LSTM
 networks.
 
-Find more information in [this Quantdare post](www.quantdare.com).
+Find more information in [this Quantdare post](https://quantdare.com/transformers-is-attention-all-we-need-in-finance-part-ii/).
 
 ## Run the experiments
 Install the `requirements.txt` file and then run the `main.py` file:
@@ -13,11 +13,9 @@ python main.py
 ```
 
 ## Hyperparameters and Feature Engineering
-The hyperparameter configuration is only set to ensure all models have
-approximately the same number of parameters.
-
 `Beware of the number of parameters:` it must be approximately the same for all
-models to ensure the comparison is fair.
+models to ensure the comparison is fair. The hyperparameter configuration is
+only set to ensure all models have approximately the same number of parameters.
 
 Regarding the features, I haven't done anything since I just wanted to test the
 models' goodness, not caring about achieving optimal performance.
