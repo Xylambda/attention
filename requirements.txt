@@ -11,6 +11,6 @@ pandas==1.3.5
 scikit-learn==1.0.1
 torch==1.11.0
 torchaudio==0.11.0
--e git+https://github.com/Xylambda/torchfitter.git@9794f32d9d52c3bfd4917507208ae17fed84bbd0#egg=torchfitter
+torchfitter==4.2.0
 torchmetrics==0.7.3
 torchvision==0.12.0
