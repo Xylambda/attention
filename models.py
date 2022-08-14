@@ -73,7 +73,7 @@ class EmbeddingLSTM(nn.Module):
 
     def forward(self, X):
         out = self.emb(X)
-        out, (h, c) = self.lstm(X)
+        out, (h, c) = self.lstm(out)
         out = self.lin(out)
         return out
 
